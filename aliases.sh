@@ -1,0 +1,18 @@
+alias rm='rm -i'
+alias rmr='rm -I -r'
+alias ..='cd ..'
+alias ...='cd ..; cd ..'
+alias ltr='ls -ltrh'
+alias fs1p='cd /fs1/per/'
+alias fs1s='cd /fs1/per/proj/scRNAseq'
+alias wgsrun='singularity exec --bind /fs1 /fs1/resources/containers/wgs_active.sif'
+alias sq='squeue -o "%.18i %.9P %.8j %.8u %.8T %.10M %.9l %.6D %C %c %R" '
+alias sqp='sq | grep per'
+alias sqr="sq | grep ' RUNNING'"
+alias sac='sacct'
+alias sacr='sacct | grep RUNNING'
+alias psaux=' ps aux | grep per'
+alias pscut=' ps aux | grep per | cut -b 1-100'
+alias mlnext='ml Java; ml nextflow/19.04.1; ml singularity'
+alias Nova='cd /fs1/seqdata/NovaSeq'
+

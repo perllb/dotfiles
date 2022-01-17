@@ -1,0 +1,15 @@
+# Status lines
+hardstatus off
+hardstatus alwayslastline
+hardstatus string '%{= BG}%{.g}[ %{.G}%H %{.g}][ %{= Bw}%?%-Lw%?%{Yr}%{.k}%n*%f%
+? %t%?%?(%u)%?%{.r}%{Bw}%?%+Lw%? %{.g}%=][%{.W} %Y-%m-%d %c %{.g}]'
+
+
+# Start with window 1 (instead of 0)
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1
+
+# Custom medpvb
+escape ^Jj

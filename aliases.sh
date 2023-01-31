@@ -11,3 +11,9 @@ alias sacr='sacct | grep RUNNING'
 alias psaux=' ps aux | grep per'
 alias pscut=' ps aux | grep per | cut -b 1-100'
 
+
+alias scr='screen'
+alias ipe='curl ipecho.net/plain;echo'
+alias ll='ls -la'
+alias ltr='ls -ltrha'
+alias ipe='curl ipecho.net/plain; echo'
